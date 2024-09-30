@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2407E6;
+    display:flex; 
+    justify-content: space-between;   
+    width: 100%;
+
+}
+#menu {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column; 
+    margin: 10px;
+}
+
+
+main {
+
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    Border: solid red 1px;
+}
+
+#hero {
+    height: 400px;
+    background: url("../images/Images/pexels-gabby-k.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    position: absolute;
+    font-size: 150%;
+
+    width: 80%;
+    min-height: 200px;  
+    padding-left: 70px;
+}
+
+footer {
+    background: #2407E6;
+}
+
