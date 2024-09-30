@@ -9,6 +9,7 @@
 
 body {
     min-height: 100vh;
+    font-family: "Roboto", sans-serif;
 }
 
             /* Header */
@@ -21,7 +22,7 @@ header {
 }
 
              /* Navbar */
-#menu {
+nav {
     color: #ffffff;
     display: flex;
     flex-direction: column; 
@@ -61,7 +62,7 @@ main {
     margin-left: 20px;
     margin-bottom: 30px;
     letter-spacing: 1px;
-    font-family: "Roboto", sans-serif;
+    
 }              
 
 .depression {
