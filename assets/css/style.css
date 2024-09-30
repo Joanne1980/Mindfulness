@@ -10,14 +10,18 @@
 body {
     min-height: 100vh;
     font-family: "Roboto", sans-serif;
+    background-color: linear-gradient(to right top, #3f0acf, #0050d8, #005eaf, #006279, #006155, #006954, #027151, #17794b, #148f68, #10a586, #0fbca6, #18d3c7);
 }
 
             /* Header */
 header {
-    background-color: #2407E6;
+    background-image: linear-gradient(to right top, #3f0acf, #0050d8, #005eaf, #006279, #006155, #006954, #027151, #17794b, #148f68, #10a586, #0fbca6, #18d3c7);
+    ;
     display:flex; 
     justify-content: space-between;   
     width: 100%;
+    position: fixed;
+    z-index: 1;
 
 }
 
@@ -33,7 +37,7 @@ nav {
               /* Main */
 main {
 
-    background: #2407E6;
+    background-image: linear-gradient(to right top, #3f0acf, #0050d8, #005eaf, #006279, #006155, #006954, #027151, #17794b, #148f68, #10a586, #0fbca6, #18d3c7);
     display: flex;
     flex-direction: column;
    
@@ -45,16 +49,26 @@ main {
     height: 400px;
     background: url("../images/Images/pexels-gabby-k.webp") no-repeat center center/cover;
     position: relative;
+   
 }
 
 #cover-text {
     position: absolute;
     font-size: 150%;
-
     width: 80%;
     min-height: 200px;  
     padding-left: 70px;
+    
 }
+
+            /* Imbedded music/meditation */
+          
+#spotify {
+    width: 100%vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left :50px;
+}            
 
               /* Cards */
 
@@ -62,17 +76,24 @@ main {
     margin-left: 20px;
     margin-bottom: 30px;
     letter-spacing: 1px;
+    display: flex;
+   
+
     
 }              
 
 .depression {
    margin-bottom :20px;
-}     
+   flex-direction: nowrap;
+} 
+
+
 
 h2 {
     color: #ffffff;
     font-size: 30px;
     text-decoration: underline;
+    padding-bottom: 20px;
 }
 .card-title {
     color: #ffffff;
@@ -81,13 +102,28 @@ h2 {
 .card {
     color: #ffffff;
     font-size: 15px;
+    border: black solid 1px;
 }
 
 .btn btn-light {
     color: #ffffff;
+
 }
 
 footer {
-    background: #2407E6;
+    background-image: linear-gradient(to right top, #3f0acf, #0050d8, #005eaf, #006279, #006155, #006954, #027151, #17794b, #148f68, #10a586, #0fbca6, #18d3c7);
+    height: 50px;
+
+}
+
+#social-media {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-media i {
+    font-size: 100%;
+    color: ffffff;
 }
 
