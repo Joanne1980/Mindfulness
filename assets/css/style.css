@@ -65,11 +65,17 @@ main {
 
 /* Imbedded music/meditation/link to games */
 
+#relaxation {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 #spotify {
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
     margin-left: 50px;
+    margin-top: 20px;
 }
 
 .game {
@@ -84,6 +90,10 @@ h2 {
     font-size: 30px;
     text-decoration: underline;
     padding-bottom: 20px;
+}
+
+.depression {
+    margin-left: 20px;
 }
 
 .card-title {
