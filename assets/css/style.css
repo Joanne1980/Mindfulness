@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* position: fixed;
+   /* position: fixed;
     z-index: 1; */
 
 }
@@ -76,14 +76,14 @@ main {
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: 0px;
+    justify-content: space-between;
+    margin-left: 20px;
     margin-top: 20px;
 }
 
 .game {
     height: 150px;
-    margin-left: 10px;
+    margin-left: 80px;
     display: flex;
     align-self: center;
 }
@@ -98,7 +98,8 @@ h2 {
     padding-bottom: 20px;
     text-align: center;
 }
-h5{
+
+h5 {
     text-align: center;
 }
 
@@ -138,36 +139,64 @@ h5{
 footer {
     background-image: linear-gradient(to right top, #3f0acf, #0050d8, #005eaf, #006279, #006155, #006954, #027151, #17794b, #148f68, #10a586, #0fbca6, #18d3c7);
     height: 50px;
-
+    padding-top: 30px;
 
 }
 
-#social-media {
+#social-networks {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
 }
 
-#social-media i {
+#social-networks i {
     font-size: 100%;
-    color: ffffff;
+    color: #ffffff;
 }
+
+/* information.html */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.illness {
+    width: 50vw;
+    margin-left: 150px;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+li {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
 
 /* media query: large or landscape phones (576px and up) */
 
-@media screen and (min-width: 576px){
+@media screen and (min-width: 576px) {
 
-#spotify {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-   
+    #spotify {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+    }
+
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+    }
 }
-
-
-.cards {
-    display: flex;
-    justify-content: space-around;
-}
-}
-
