@@ -65,6 +65,8 @@ main {
 
 /* Imbedded music/meditation/link to games */
 
+
+
 #relaxation {
     margin-left: 20px;
     margin-top: 20px;
@@ -73,13 +75,17 @@ main {
 #spotify {
     width: 100vw;
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 0px;
     margin-top: 20px;
 }
 
 .game {
     height: 150px;
+    margin-left: 10px;
+    display: flex;
+    align-self: center;
 }
 
 /* Cards */
@@ -90,10 +96,15 @@ h2 {
     font-size: 30px;
     text-decoration: underline;
     padding-bottom: 20px;
+    text-align: center;
+}
+h5{
+    text-align: center;
 }
 
 .depression {
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 .card-title {
@@ -103,6 +114,7 @@ h2 {
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -140,3 +152,22 @@ footer {
     font-size: 100%;
     color: ffffff;
 }
+
+/* media query: large or landscape phones (576px and up) */
+
+@media screen and (min-width: 576px){
+
+#spotify {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+}
+
