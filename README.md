@@ -1,20 +1,19 @@
-# Project Title
+# Mindfulness
 
 ## Overview
 
-### Purpose
-A brief description of the project's purpose, what it aims to achieve, and the value it provides to the users.  
-**Guidance:** Begin filling out this section during Phase 1: Ideation & Initial Setup. Clearly articulate the main goal of your project, what it aims to achieve, and how it will provide value to your target audience.
+### Purpose 
+Mindfulness is a mindful website aimed at depression and anxiety. Where the use can come and use methods like listening to calming music, meditation or play games to take their minds off their stress to calm down. Gain some information about depression.
+The main goal with mindfulness is to help people to cope with their mental health issues by using the art of mindfulness to bring them in to the present moment and reduce the stress that they are going through in this moment.
 
 ### Target Audience
-Identify the target audience for your website and explain why this audience will benefit from the project.  
-**Guidance:** Use this section to identify who will benefit from your project and why. This should be informed by your user stories and overall project objectives.
+My target audience will be someone who is suffering with depression and anxiety, or a loved one who wants to find out some information to be able to help.
 
 ## User Stories
 
 ### Must-Have User Stories
-- **User Story 1:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
+- **User Story 1:** The user would like to see mindfulness have a calming feel.  
+  **Acceptance Criteria:** Mindfulness has a calming feel about it with the use of colours and pictures. 
 - **User Story 2:** Briefly describe the must-have feature.  
   **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
 
