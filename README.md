@@ -6,131 +6,137 @@
 Mindfulness is a mindful website aimed at depression and anxiety. Where the use can come and use methods like listening to calming music, meditation or play games to take their minds off their stress to calm down. Gain some information about depression.
 The main goal with mindfulness is to help people to cope with their mental health issues by using the art of mindfulness to bring them in to the present moment and reduce the stress that they are going through in this moment.
 
+![screenshot of landing page](docs/Landing-page.webp)
+
 ### Target Audience
 My target audience will be someone who is suffering with depression and anxiety, or a loved one who wants to find out some information to be able to help.
 
 ## User Stories
 
 ### Must-Have User Stories
-- **User Story 1:** The user would like to see mindfulness have a calming feel.  
-  **Acceptance Criteria:** Mindfulness has a calming feel about it with the use of colours and pictures. 
-- **User Story 2:** Briefly describe the must-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include all prioritized must-have features)  
-**Guidance:** Draft the user stories during Phase 1: Ideation & Initial Setup and update them as you complete Phase 2: Must User Stories Implementation & Testing. Document each must-have feature here along with its acceptance criteria.
+- **User Story 1:** The user would like to see mindfulness have external links. 
+  **Acceptance Criteria:** Mindfulness has included external links to organisations in the information section.
+- **User Story 2:** The user would like Mindfulness help ease stress.
+  **Acceptance Criteria:** Mindfulness has added Iframes with calming music, guided meditation and and external link to online games which can help to occupy the users mind.
+  **User Story 3** The user would like to see information to help recognise symptoms of mental health/stress.
+  **Acceptance Criteria** Mindfulness has added an information section which includes psychological, physical and social symptons of depression. 
 
 ### Should-Have User Stories
-- **User Story 1:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the should-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include all prioritized should-have features)  
-**Guidance:** Document the secondary features that you aim to implement in Phase 3: Should User Stories Implementation & Any Advanced Features. Include clear acceptance criteria for each.
+- **User Story 1:** The user would like Mindfulness to have a calming feel.  
+  **Acceptance Criteria:** Mindfulness has included a calming colour palete and calming nature images.
+- **User Story 2:** The user would like Mindfulness to be well organised
+  **Acceptance Criteria:** Mindfulness has links to other sections and is easy to navigate.
 
 ### Could-Have User Stories
-- **User Story 1:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-- **User Story 2:** Briefly describe the could-have feature.  
-  **Acceptance Criteria:** List the criteria that define the successful implementation of this user story.
-
-(Include any could-have features considered for future enhancements)  
-**Guidance:** Document any optional features that are nice to have but not essential.
+- **User Story 1:** The user would like Mindfulness to have some positive messages, affirmations. 
+  **Acceptance Criteria:** This is a feature that Mindfulness will be looking to add in the future. 
+- **User Story 2:** The user would like to see tips on how to deal with mental health.
+  **Acceptance Criteria:** This is a feature that mindfulness would like to increase in the future. 
 
 ## Design Decisions
 
 ### Wireframes
-Include wireframes for key sections of your website.  
-Briefly describe the design choices, including layout, colour schemes, and fonts.  
-**Guidance:** Start this section during Phase 1: Ideation & Initial Setup and update it throughout Phase 2 and Phase 3. Include digital wireframes created in Phase 1. Document the reasoning behind your layout choices, colour schemes, and font selections.
+<details open>
+<summary>Wireframe - tablet landing page</summary>  
+![wireframe-tablet-landingpage](docs/tablet.png)
+</details>
+
+<details>
+<summary>Wireframe - tablet information</summary>  
+![wireframe-tablet-information](docs/tablet%202.png)
+</details>
+
+<details>
+<summary>Wireframe - Desktop information</summary>  
+![wireframe-tablet-information](docs/Desktop.png)
+</details>
+
+<details>
+<summary>Wireframe - desktop information</summary>  
+![wireframe-tablet-information](docs/Desktop%202.png)
+</details>
+
+I had a good look at colour paletes and researched best colours to use for a calming effect on a website. This is why I chose
+to use blue and green.
+
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
-
-## AI Tools Usage
-
-### DALL-E
-Describe how DALL-E was used for image generation, including examples of successes and challenges.  
-**Guidance:** Specifically mention how you used DALL-E for image generation and the impact this had on your design process.
+I used calming blue and green colours for Mindfulness, because of this I mainly use a font colour of white for the contrast. 
+I have included alt text where no text is present i.e on images or on the Iframes. I have also included Aria Label within my code 
+to make accessibilty better.
 
 ## Features Implementation
 
 ### Core Features (Must-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all must-have features)  
-**Guidance:** Use this section as you complete Phase 2: Must User Stories Implementation & Testing. Document all the must-have features you implemented, explaining how they align with the user stories and acceptance criteria.
+-In creating this website I stook to HTML and CSS and used flexbox to help with positioning. I did attempt to use Bootstrap 4.6 but I didn't have enough time to master it so decided against using it on this project. 
 
 ### Advanced Features (Should-Haves)
-- **Feature 1:** Description of the implemented feature.
-- **Feature 2:** Description of the implemented feature.
-
-(Include all should-have features)  
-**Guidance:** Include any advanced features you implemented during Phase 3: Should User Stories Implementation & Any Advanced Features. Explain how these features enhance user experience and their alignment with the acceptance criteria.
-
-### Optional Features (Could-Haves)
-- **Feature 1:** Description of the implemented feature (if any).
-- **Feature 2:** Description of the implemented feature (if any).
-
-(Include any could-have features that were implemented or considered)  
-**Guidance:** If any could-have features were implemented, describe them here. This is an opportunity to showcase extra work done beyond the initial scope. But remember - keep it simple! Focus on the Must stories first. Could user story features are commonly earmarked for future project iterations.
+-I have included Iframes for music and meditation to help with the calming effect on the webpage. 
 
 ## AI Tools Usage
 
-### GitHub Copilot
-Describe how GitHub Copilot assisted in coding, including any challenges or adjustments needed.  
-**Guidance:** Reflect on how GitHub Copilot assisted in coding, particularly any challenges or adjustments that were needed to align with project goals.
+I have not used any AI Tools in the design or coding of this webpage. 
 
 ## Testing and Validation
 
 ### Testing Results
-Summarize the results of testing across different devices and screen sizes.  
-Mention any issues found and how they were resolved.  
-**Guidance:** Summarize the results of your testing across various devices using tools like Chrome DevTools, as outlined in Phase 2. Mention any issues found and how they were resolved.
+I have searched Mindfulness on a number of different sized phones and the resposivity was quite good. When I checked it through 
+devtools it is slightly off on the bigger screens which will be fixed in the future. The resposivity of the Iframes also needs looking at as I had problems positioning the Iframes where I wanted to place them.
 
 ### Validation
-Discuss the validation process for HTML and CSS using W3C and Jigsaw validators.  
-Include the results of the validation process.  
-**Guidance:** Document your use of W3C and Jigsaw validators to ensure your HTML and CSS meet web standards. Include any errors or warnings encountered and how they were resolved.
+Landing page 
+![W3C markup validation on landing page](docs/Screenshot-2024-10-02-121200.webp)
+Information page 
+CSS validation
+![W3C markup validation for Information page](docs/Screenshot-2024-10-02-121246.webp)
+![W3C CSS Validation](docs/Screenshot-2024-10-02-121046.webp)
 
-## AI Tools Usage
+My landing page and information page only had errors on the sizes of the favicon. When I researched the best sizes to use on google it states the sizes I used are correct. 
+The error I had on my CSS was to do with my background colour and using a gradient. 
 
-### GitHub Copilot
-Brief reflection on the effectiveness of using AI tools for debugging and validation.  
-**Guidance:** Reflect on how GitHub Copilot assisted with debugging and validation, particularly any issues it helped resolve.
+Light house scoring 
+
+![Lighthouse scoring](docs/Screenshot-2024-10-02-110701.webp)
+
+When I looked through my lighthouse score, the reason behind my best practice score was due to external cookies from the Spotify Iframes. This is something I will look in to correcting in the future. 
 
 ## Deployment
 
 ### Deployment Process
-Briefly describe the deployment process to GitHub Pages or another cloud platform.  
-Mention any specific challenges encountered during deployment.  
-**Guidance:** Describe the steps you took to deploy your website during Phase 4: Final Testing, Debugging & Deployment, including any challenges encountered.
+I deployed Mindfulness early in the build to try save any isses later on. I had no issues during deployment. 
 
-## AI Tools Usage
-
-### Reflection
-Describe the role AI tools played in the deployment process, including any benefits or challenges.  
-**Guidance:** Reflect on how AI tools assisted with the deployment process, particularly how they streamlined any tasks or presented challenges.
 
 ## Reflection on Development Process
 
 ### Successes
-Effective use of AI tools, including GitHub Copilot and DALL-E, and how they contributed to the development process.
+I have not used any AI in the building of Mindfulness. 
 
 ### Challenges
-Describe any challenges faced when integrating AI-generated content and how they were addressed.
+I had issues early in the process of building Mindfulness with Bootstrap as I couldn't position the cards where I wanted to put them. For this reason I decided to go down the route of just using flexbox and I found it worked better for this project. I also had some problems resizing images as with this being my first project I wasn't sure on the best sizes to use. 
+I have also had some problems lining Iframes and the games section horizontally to each other. This is something I will come back to and try to correct. 
+I also found that I was changing elements in error with CSS and it took me awhile to figure out why elements where changing on me. This is something I will definately remember for the future.
+I have also had issues with the footer and getting the social media icons to show on the page. 
 
 ### Final Thoughts
-Provide any additional insights gained during the project and thoughts on the overall process.  
-**Guidance:** Begin drafting reflections during Phase 1 and update throughout the project. Finalize this section after Phase 4. Highlight successes and challenges, particularly regarding the use of AI tools, and provide overall insights into the project.
+I have very much enjoyed this project it has given me a big insight on how what not to do whilst coding. 
+I will definately spend more time planning with future projects. I need to give elements better classes to stop me from changing elements in error whist styling. 
 
-## Code Attribution
-Properly attribute any external code sources used in the project (excluding GitHub Copilot-generated code).  
-**Guidance:** Document any external code sources used throughout the entire project, especially during Phase 2 and Phase 3. Exclude GitHub Copilot-generated code from attribution.
+## Attribution
+I have used Stack overflow for help with coding along with W3 Schools and MDN web docs. 
+I did look back over previous coding from our walkthrough projects also. 
+I have taken images from Pexels website.
+Canvas for helping to resize logo. 
+Spotify for the Iframes.
+Crazy-games for the link to their gaming website. 
+Nhs and Mind matters for information and links 
+Looking at other readme files for help with syntax. 
+
 
 ## Future Improvements
-Briefly discuss potential future improvements or features that could be added to the project.  
-**Guidance:** Reflect on potential enhancements that could be made to the project after Phase 4: Final Testing, Debugging & Deployment. These could be Could user story features you didn’t have time to implement or improvements based on testing feedback.
+In the future I would like to fix any isses with responsivity, the icons on the footer. 
+The favicon sizes and Iframes to bring lighthouse score up on the best practices and validation. 
+I would like to add extra features for example I would like to add a count down timer. This will assist users to box breath and 
+help with any anxiety. I would like to include more information about other mental health issues. 
+Add some more images and some positive messages and affirmations. 
+I would also like to include my own games instead of using external link. 
+I would like to incorporate some Bootstrap elements like Carousel and cards.
