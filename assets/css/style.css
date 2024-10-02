@@ -20,12 +20,13 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-   /* position: fixed;
+    /* position: fixed;
     z-index: 1; */
-
 }
 
-
+.logo {
+    margin-left: 30px;
+}
 
 /* Navbar */
 nav {
@@ -33,6 +34,9 @@ nav {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    list-style-type: none;
+    font-size: 30px;
+    margin-right: 30px;
 }
 
 
@@ -54,13 +58,24 @@ main {
 
 }
 
-#cover-text {
+.cover-text {
     position: absolute;
-    font-size: 150%;
     width: 80%;
     min-height: 200px;
-    padding-left: 70px;
-    color: #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+
+#mindfulness {
+    font-size: 300%;
+    color: black;
+
+}
+
+.positive {
+    color: black;
+    padding-left: 15%;
 
 }
 
@@ -74,11 +89,11 @@ main {
 }
 
 #spotify {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: 20px;
+    justify-content: center;
+    margin-left: 50px;
     margin-top: 20px;
 }
 
@@ -139,7 +154,7 @@ h5 {
 
 footer {
     background-image: linear-gradient(to right top, #3f0acf, #0050d8, #005eaf, #006279, #006155, #006954, #027151, #17794b, #148f68, #10a586, #0fbca6, #18d3c7);
-    height: 50px;
+    height: 75px;
     padding-top: 30px;
 
 }
@@ -148,6 +163,7 @@ footer {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
+    /*list-style-type: none;*/
 }
 
 #social-networks i {
@@ -165,21 +181,22 @@ footer {
 
 .illness {
     width: 50vw;
-    margin-left: 150px;
+    margin-left: 75px;
 }
 
 h3 {
     color: #ffffff;
+    font-size: 25px;
 }
 
 p {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 li {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
@@ -188,6 +205,7 @@ li {
 
 @media screen and (min-width: 576px) {
 
+    /* relaxation section*/
     #spotify {
         display: flex;
         justify-content: space-evenly;
@@ -195,9 +213,26 @@ li {
 
     }
 
-
+    /*deperssion section*/
     .cards {
         display: flex;
         justify-content: space-around;
     }
+
+    /* hero section*/
+    .positive {
+        padding-left: 38%;
+    }
+}
+
+/* media query: large or desktop (1085px and up) */
+
+@media screen and (min-width: 1085px) {
+
+    /* hero section*/
+    .positive {
+        padding-left: 42%;
+
+    }
+
 }
