@@ -37,23 +37,23 @@ My target audience will be someone who is suffering with depression and anxiety,
 
 ### Wireframes
 <details open>
-<summary>Wireframe - tablet landing page</summary>  
-![wireframe-tablet-landingpage](docs/tablet.png)
+    <summary>Wireframe - tablet landing page</summary>  
+    ![wireframe-tablet-landingpage](docs/tablet.png)
 </details>
 
 <details>
-<summary>Wireframe - tablet information</summary>  
-![wireframe-tablet-information](docs/tablet%202.png)
+     <summary>Wireframe - tablet information</summary>  
+     ![wireframe-tablet-information](docs/tablet%202.png)
 </details>
 
 <details>
-<summary>Wireframe - Desktop information</summary>  
-![wireframe-tablet-information](docs/Desktop.png)
+     <summary>Wireframe - Desktop information</summary>  
+     ![wireframe-tablet-information](docs/Desktop.png)
 </details>
 
 <details>
-<summary>Wireframe - desktop information</summary>  
-![wireframe-tablet-information](docs/Desktop%202.png)
+      <summary>Wireframe - desktop information</summary>  
+      ![wireframe-tablet-information](docs/Desktop%202.png)
 </details>
 
 I had a good look at colour paletes and researched best colours to use for a calming effect on a website. This is why I chose
